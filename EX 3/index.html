@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Registration Form</title>
+        <link href="app.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2 style="text-align: center; color:antiquewhite;">Form</h2>
+            </div>
+            <form class="form">
+                <div class="form-control">
+                    <label for="username"><b>Name</b></label>
+                    <input id="txtUserName" type="text" name="username" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email"><b>Email ID</b></label>
+                    <input id="txtEmail" type="email" name="email" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="phone"><b>Phone Number</b></label>
+                    <input id="txtPhone" type="text" name="phone" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="gender"><b>Gender</b></label>
+                    <select id="ddlGender" name="gender">
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="location"><b>Location</b></label>
+                    <input id="txtLocation" type="text" name="location" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="pwd"><b>Password</b></label>
+                    <input id="txtPwd" type="password" name="pwd" />
+                    <small>Error Message</small>
+                </div>
+                <br>
+                <div class="form-control">
+                    <label for="conpwd"><b>Confirm Password</b></label>
+                    <input id="txtConPwd" type="password" name="conpwd" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
